@@ -1,0 +1,42 @@
+// Sever.odl : type library source for Sever.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Sever.tlb).
+
+[ uuid(84A9BFE5-8B19-4383-A0E6-EB809B55287D), version(1.0) ]
+library Sever
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CSeverDoc
+	
+	[ uuid(BA67CCDE-6727-47F9-B39E-67153C4BBD36) ]
+	dispinterface ISever
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CSeverDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CSeverDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CSeverDoc
+	
+	[ uuid(47DF5983-DA51-462A-A086-237B59EF0ABE) ]
+	coclass Sever
+	{
+		[default] dispinterface ISever;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};

@@ -1,0 +1,27 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Client - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\10134\AppData\Local\Temp\RSP7BB7.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Client.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ   /c 
+"D:\Projects\Client\ClientDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\10134\AppData\Local\Temp\RSP7BB7.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Client.pdb" /debug /machine:I386 /out:"Debug/Client.exe" /pdbtype:sept  .\Debug\Client.obj .\Debug\ClientDlg.obj .\Debug\DlgProxy.obj .\Debug\StdAfx.obj .\Debug\Client.res "
+<h3>Output Window</h3>
+Compiling...
+ClientDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Client.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,42 @@
+// Client.odl : type library source for Client.exe
+
+// This file will be processed by the MIDL compiler to produce the
+// type library (Client.tlb).
+
+[ uuid(AF73D5BD-5013-4D61-B606-08A6333A3275), version(1.0) ]
+library Client
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+
+
+	//  Primary dispatch interface for CClientDoc
+	
+	[ uuid(D79AA202-CF23-4DBD-AF54-AB4D54252785) ]
+	dispinterface IClient
+	{
+		properties:
+			// NOTE - ClassWizard will maintain property information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_PROP(CClientDlgAutoProxy)
+			//}}AFX_ODL_PROP
+			
+		methods:
+			// NOTE - ClassWizard will maintain method information here.
+			//    Use extreme caution when editing this section.
+			//{{AFX_ODL_METHOD(CClientDlgAutoProxy)
+			//}}AFX_ODL_METHOD
+
+	};
+
+	//  Class information for CClientDoc
+	
+	[ uuid(5A9AE766-9C83-4A55-867C-2A29AE792FF1) ]
+	coclass Client
+	{
+		[default] dispinterface IClient;
+	};
+
+	//{{AFX_APPEND_ODL}}
+	//}}AFX_APPEND_ODL}}
+};
